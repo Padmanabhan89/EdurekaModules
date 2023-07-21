@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Validation</title>
+</head>
+<body>
+    <h1>Name Validation</h1>
+    <p id="person"></p>
+    <button onclick="validateName()">Enter Your Name</button>
+
+    <script>
+      function validateName() {
+      var name = prompt("Please enter your name:");
+
+      if (name === null || name.trim() === "") {
+        document.write("Sorry, you have not entered any name.");
+      } else {
+        document.write("Hello " + name + ", welcome!");
+      }
+    }
+    </script>
+</body>
+</html>
