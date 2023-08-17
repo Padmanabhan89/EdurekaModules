@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ajax data load</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $("button").click(function(){
+                $("#output").load("load.html");
+            });
+        });
+        </script>
+        <style type="text/css" media="screen">
+            .formClass
+          {
+              padding: 15px;
+              border: 12px solid #23384E;
+              background: #28BAA2;
+              margin-top: 10px;
+          }   
+          </style>
+          <div class="formClass">
+            <div id="output">
+                <h2><img src="images/ganguly.jpeg"> </h2>
+            </div>
+            <button type="button">Click to Load Content</button>
+            <div>
+</body>
+</html>
