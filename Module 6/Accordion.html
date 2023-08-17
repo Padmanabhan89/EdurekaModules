@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accordion</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+    <h1>Accordion</h1>
+    <div class="container">
+    <div class="Panel-group" id="Accordion">
+      <!-- Panel 1 -->
+      <div class="panel panel-custom1">
+        <div class="panel-heading">
+          <h4 class="panel-title">
+            <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne">Panel 1</a>
+          </h4>
+        </div>
+        <div id="collapseOne" class="panel-collapse collapse">
+          <div class="panel-body">
+           <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Panel 2 -->
+      <div class="panel panel-custom2">
+        <div class="panel-heading">
+          <h4 class="panel-title">
+            <a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">Panel 2</a>
+          </h4>
+        </div>
+        <div id="collapseTwo" class="panel-collapse collapse">
+          <div class="panel-body">
+          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Panel 3 -->
+      <div class="panel panel-custom1">
+        <div class="panel-heading">
+          <h4 class="panel-title">
+            <a data-toggle="collapse" data-parent="#accordion" href="#collapseThree">Panel 3</a>
+          </h4>
+        </div>
+        <div id="collapseThree" class="panel-collapse collapse">
+          <div class="panel-body">
+           <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+<style>
+    .panel-custom1 {
+      background-color: #f7f7f7;
+      border-color: #ddd;
+    }
+
+    .panel-custom1 .panel-heading {
+      background-color: mediumseagreen;
+      color: #fff;
+    }
+
+    .panel-custom1 .panel-heading a {
+      color: #8b3131;
+    }
+
+    .panel-custom1 .panel-heading a:hover {
+      color: #f0f0f0;
+    }
+
+    .panel-custom1 .panel-body {
+      background-color: #a87a7a;
+    }
+
+    .panel-custom2 {
+      background-color: #f3f3f3;
+      border-color: #ddd;
+    }
+
+    .panel-custom2 .panel-heading {
+      background-color: #d9534f;
+      color: #fff;
+    }
+
+    .panel-custom2 .panel-heading a {
+      color: #fff;
+    }
+
+    .panel-custom2 .panel-heading a:hover {
+      color: #682727;
+    }
+
+    .panel-custom2 .panel-body {
+      background-color:yellowgreen;
+    }
+</style>
+</body>
+</html>
